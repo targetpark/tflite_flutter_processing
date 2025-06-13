@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'org.tensorflow.lite.flutter.tflite_flutter_processing'
     compileSdkVersion 30
 
     sourceSets {
